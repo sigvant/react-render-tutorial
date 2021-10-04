@@ -1,14 +1,12 @@
 import './App.css';
-// import { ChildOne } from './components/Optimization/ChildOne/';
-// import { GrandParent } from './components/Optimization/GrandParent';
-import ParentTwo from './components/Optimization/ParentTwo';
-// import ParentOne from './components/Optimization/ParentOne';
+import ParentFour from './components/Incorrect Optimizations/ParentFour';
+
 
 
 function App() {
   return (
     <div className="App">
-      <ParentTwo/>
+      <ParentFour/>
     </div>
   );
 }
