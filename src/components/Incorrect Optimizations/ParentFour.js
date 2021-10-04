@@ -22,7 +22,7 @@ const ParentFour = () => {
         <div>
             <button onClick={() => setCount((c) => c + 1)}>Count - {count}</button>   
             <button onClick={() => setName(`Codevolution`)}>Change Name</button>
-            {/* <MemoizedChildFive name={name} person={memoizedPerson}/>       */}
+            <MemoizedChildFive name={name} person={memoizedPerson}/>      
             <MemoizedChildFive name={name} handle={memoizedHandleClick}/>      
             
         </div>
